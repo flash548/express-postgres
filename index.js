@@ -1,7 +1,7 @@
 const express = require('express')
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: 'chris',
+  user: 'me',
   host: 'localhost',
   database: 'students',
   password: '',
